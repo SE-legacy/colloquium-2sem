@@ -87,3 +87,67 @@ $огр.на\ [a,\omega),\ g(x)\to0\, монотон.убывая, при\ x\to\
 11.3.$Т.(Признак\ Абеля\ сход–ти\ несобст. инт–ов.):f,g,g'\ непр.на\ [a,\omega),$
 $инт. \int_{a}^\omega f(x)dx\ сход.,\ g\ монотонна\ и\ ограничена\ на\ [a.\omega)\Rightarrow \int_{a}^\omega f(x)g(x)dx\ сход.$
 
+12.1.$Числовой\ ряд, сумма\ ряда, сходимость\ числового\ ряда.$
+$Числовой\ ряд\ \Sigma a_{n}-это\ посл–ть\ (S_{n}),\ a_{n}-n–ый\ член\ ряда,\ S_{n}-n–ая\ частичн.сумма\ ряда,$
+$S_{n}=\Sigma_{k=1}^n a_{k}, n\in\mathbb{N}.$|$S=\Sigma_{n=1}^\infty a_{n} - сумм.ряда.Если\ S\in\mathbb{R},то\ ряд\ наз.сход.\ Если S = \pm \infty,$
+$или\ \lim_{ n \to \infty }S_{n}\ не\ сущ.\ то\ ряд\ расход.$
+12.2.$Т.(Необх. усл. сход–ти\ ряда.):\Sigma a_{n}\ сход. \implies\lim_{ n \to \infty }a_{n}=0,\ т.е.\ a_{n}=o(1).$ 
+12.3.$Т.(Крит. Коши\ сход–ти\ числ. ряда.):\Sigma a_{n}\ сход.\Longleftrightarrow\forall\epsilon>0\ \exists n_{\epsilon}\in\mathbb{N}\ \forall n\geq n_{\epsilon}\ \forall p\in\mathbb{N}$
+$|S_{n+p}-S_{n}|<\epsilon,\ т.е.|\Sigma_{k=n+1}^{n+p}a_{k}|<\epsilon.$ 
+
+13.1.$Т.(об\ арифметических\ действиях\ над\ сходящимися\ рядами.)$
+$\Sigma a_{n}\ и\ \Sigma b_{n}\ сход., \Sigma_{n=1}^\infty a_{n}=A,\ \Sigma_{n=1}^\infty b_{n}=B,\ \lambda\in\mathbb{R}\implies\Sigma(a_{n}+b_{n})\ и\ \Sigma\lambda a_{n}\ сход.\ и$
+$\Sigma_{n=1}^\infty(a_{n}+b_{n})=A+B,\ \Sigma_{n=1}^\infty\lambda a_{n}=\lambda A.$
+13.2.$Абсолютная\ сходимость\ числовых\ рядов,\ связь\ со\ сходимостью.$
+$\Sigma a_{n}\ абс. сход.,если\ \Sigma |a_{n}|\ сход.\ Т.(о\ сход–ти\ абс.сход.ряда):\Sigma a_{n}\ абс.сход\Rightarrow\Sigma a_{n}\ сход.$
+
+14.1.$Т.(Основной\ признак\ Вейерштрасса.)$
+$\Sigma a_{n}\ (a_{n}\geq0)\ сход.\Longleftrightarrow S_{n}=O(1)$
+14.2.$Т.(Интегральный\ признак\ сходимости.)$
+$Пусть\ f\downarrow\ на\ [1,+\infty)\ и\ f(x)\geq0\ \forall x\in[1,+\infty).\ Тогда:\int_{1}^\infty f(x)dx\ сход.\Longleftrightarrow\Sigma f(n)\ сход.$
+
+15.1.$Т.(Признак\ мажорации.)$$Опр.\ a_{n}=O(b_{n})\Leftrightarrow\exists C>0\ \forall n\in\mathbb{N}\ |a_{n}|\leq C|b_{n}|$
+$Теорема.:\forall n\in \mathbb{N}\ a_{n}\geq 0,\ b_{n}\geq 0,\ a_{n}=O(b_{n}),\ \Sigma_{n=1}^\infty b_{n}<+\infty\Rightarrow\Sigma_{n=1}^\infty a_{n}<+\infty.$
+$След.1:\forall n\in\mathbb{N}\ a_{n}\geq 0, b_{n}>0, \left( \frac{a_{n}}{b_{n}} \right)\ сход.,\ \Sigma_{n=1}^\infty b_{n}<+\infty\Rightarrow\Sigma_{n=1}^\infty a_{n}<+\infty.$
+$След.2:\forall n\in\mathbb{N}\ a_{n}>0,\ b_{n}>0, \left( \frac{a_{n+1}}{a_{n}} \right)\leq\left( \frac{b_{n+1}}{b_{n}} \right),\ \Sigma_{n=1}^\infty b_{n}<+\infty\Rightarrow\Sigma_{n=1}^\infty a_{n}<+\infty.$
+15.2.$Т.(Признак\ сравнения.):\forall n\in\mathbb{N}\ a_{n}>0,\ b_{n}>0,\ \exists \lim_{ n \to \infty } \frac{a_{n}}{b_{n}}=k\neq 0\Rightarrow$
+$ряды\ \Sigma a_{n}\ и\ \Sigma b_{n}\ ведут\ себя\ одинаково.$
+
+16.1.$Т.(Признак\ Коши.):Пусть\ \forall n\in\mathbb{N}\ a_{n}\geq 0,\ \overline{\lim_{ n \to \infty }}\sqrt[n]{a_{n}}=\alpha.\ Тогда:$
+$1)\ \alpha<1,\implies \Sigma a_{n}\ сход.\ 2)\ \alpha>1,\implies \Sigma a_{n}\ расход.\ 3)\ \alpha=1\implies?.$
+16.2.$Т.(Признак\ Даламбера.):Пусть\ \forall n\in\mathbb{N}\ a_{n}>0\ и\ \lim_{ n \to \infty } \frac{a_{n+1}}{a_{n}}=\alpha.\ Тогда:$
+$1)\ \alpha<1\implies\Sigma a_{n}\ сход.\ 2)\ \alpha>1\implies\Sigma a_{n}\ расход.\ 3)\ \alpha=1\implies?.$
+
+17.1.$Необходимое\ и\ достаточное\ условие\ абсолютной\ сходимости\ ряда.$
+$a^+= \frac{|a|+a}{2},\ a^-= \frac{|a|-a}{2}.\ a^+ -положит.часть\ числа\ a,\ a^- - отриц.часть.$|$a=a^+ - a^-,$
+$|a|=a^+ +a^-,\ 0\leq a^+\leq |a|,\ 0\leq a^-\leq |a|.\ \Sigma a_{n}=\Sigma a_{n}^+ -\Sigma a_{n}^-,\ \Sigma |a_{n}|=\Sigma a_{n}^+ +\Sigma a_{n}^-$
+$Т.(необх.и\ дост.усл.абс.сход.):\Sigma a_{n}\ абс.сход.\Longleftrightarrow\Sigma a_{n}^+\ и\ \Sigma a_{n}^-\ сход.$
+17.2.$Понятие\ условно\ сходящегося\ ряда. Теорема\ об\ условно\ сходящихся\ рядах.$
+$Опр.Числ.ряд\ наз.условно\ сходящимся,\ если\ он\ сходится,\ но\ не\ сходится\ абсолютно.$
+$Т.(об\ условно\ сходящихся\ рядах.):\Sigma a_{n}\ сход.\ условно\Rightarrow\Sigma a_{n}^+\ и\ \Sigma a_{n}^-\ расход.$
+
+18.1.$Т.(Преобразование\ (тождество)\ Абеля.)$
+$B_{n}=\Sigma_{k=1}^nb_{k},\ n\geq1\implies \Sigma_{k=1}^na_{k}b_{k}=a_{n}B_{n}-\Sigma_{k=1}^{n-1}(a_{k+1}-a_{k})B_{k}$
+18.2.$Т.(О\ равносходимости\ рядов,\ связанных\ преобразованием\ Абеля.):$
+$B_{n}=\Sigma_{k=1}^nb_{k},\ (a_{n}B_{n})\ сход.\implies\Sigma a_{n}b_{n}\ и\ \Sigma (a_{n+1}-a_{n})B_{n}\ ведут\ себя\ одинаково.$
+18.3.$Т.(Признак\ Абеля.):$
+$1)\ (a_{n})\ монотон.\ и\ огр.,\ 2)\ \Sigma b_{n}\ сход.(т.е.(B_{n})\ сход.)\implies\Sigma a_{n}b_{n}\ сход.$
+18.4.$Т.(Признак\ Дирихле.):$
+$1)\ (a_{n})\ монотон.\ и\ a_{n}=\overline{o}(1),\ 2)\ B_{n}=\Sigma_{k=1}^nb_{k}=\underline{O}(1)\implies\Sigma a_{n}b_{n}\ сход.$
+18.5.$Т.(Признак\ Лейбница.):(a_{n})\ монотон.\ и\ a_{n}=\overline{o}(1)\implies\Sigma(-1)^{n-1}a_{n}\ сход.$
+
+19.$Сумма\ ряда\ как\ обобщение\ суммы\ конечного\ числа\ слагаемых, сочетательный\ закон.$
+$Т.(Сочетательный\ закон.):\Sigma a_{n}\ сход.,\ (m_{n})\uparrow,\ m_{1}=1\implies\Sigma_{n=1}^\infty(\Sigma_{k=m_{n}}^{m_{n+1} - 1}a_{k})\ сход.$
+$и\ его\ сумма\ равна\ сумме\ \Sigma_{n=1}^\infty a_{n}.$|$P.S.:Если\ шо,\ в\ скобках: k=m_{n},\ и\ m_{n+1}-1$|
+$Опр.\varphi-взаимно\ однознач.\ отображ–е\ \mathbb{N}\ на\ \mathbb{N}.\ \Sigma a_{\varphi(k)}\ наз.\ перестановкой\ ряда\ \Sigma a_{n}.$
+
+20.1.$Т.(Коммутативный\ закон\ для\ знакоположительных\ рядов):$
+$\forall n\in\mathbb{N}\ a_{k}\geq0\implies\Sigma_{k=1}^\infty a_{n_{k}}=\Sigma_{k=1}^\infty a_{k}.$
+20.2.$Т.(Коммутативный\ закон\ для\ абсолютно\ сходящихся\ рядов.):$
+$Ряд\ абс.сход.\implies\ любая\ его\ перестановка\ абс.сход.\ и\ их\ суммы\ равны.$
+20.3.$Т.(Римана.):\Sigma a_{n}\ сход.\ усл.\implies \forall A\in \overline{\mathbb{R}}\quad \exists\ \Sigma_{k=1}^\infty a_{n_{k}}=A.$
+
+21.1.$Произведение\ числовых\ рядов,\ согласованное\ с\ произведением\ частных\ сумм.$
+
+21.2.$Т.(О\ произведении\ абсолютно\ сходящихся\ рядов.)$
+
