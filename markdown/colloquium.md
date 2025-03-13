@@ -148,6 +148,10 @@ $Ряд\ абс.сход.\implies\ любая\ его\ перестановка\
 20.3.$Т.(Римана.):\Sigma a_{n}\ сход.\ усл.\implies \forall A\in \overline{\mathbb{R}}\quad \exists\ \Sigma_{k=1}^\infty a_{n_{k}}=A.$
 
 21.1.$Произведение\ числовых\ рядов,\ согласованное\ с\ произведением\ частных\ сумм.$
-
+$\Sigma c_{n},\ где\ c_{n}=a_{n}\cdot\Sigma_{k=1}^{n-1}b_{k}+b_{n}\cdot\Sigma_{k=1}^{n-1}a_{k}+a_{n}b_{n}\ наз.\ произведением\ \Sigma a_{n}\ и\ \Sigma b_{n}.$
+$Пусть\ C_{n}=\Sigma_{k=1}^nc_{k},\ A_{n}=\Sigma_{k=1}^na_{k},\ B_{n}=\Sigma_{k=1}^nb_{k},\ тогда\ C_{n}=A_{n}\cdot B_{n}$
+$Т.:\ \Sigma a_{n}\ и\ \Sigma b_{n}\ сход.\implies\Sigma c_{n}\ сход.\ и\ \Sigma_{n=1}^\infty c_{n}=\Sigma_{n=1}^\infty a_{n}\cdot\Sigma_{n=1}^\infty b_{n}.$
 21.2.$Т.(О\ произведении\ абсолютно\ сходящихся\ рядов.)$
+$\Sigma a_{n}\ и\ \Sigma b_{n}\ абс.\ сход.\implies \Sigma c_{n}\ абс.\ сход.\ и\ \Sigma_{n=1}^\infty c_{n}=\Sigma_{n=1}^\infty a_{n}\cdot\Sigma_{n=1}^\infty b_{n}\ при\ любой$
+$нумерации\ элементов\ матрицы\ C.$
 
