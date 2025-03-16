@@ -19,8 +19,7 @@ $След–е:S(P)=sup_{\xi_{p}}\sigma(P,\xi_{p}),s(P)=inf_{\xi_{p}}\sigma(P,\x
 $Верх.инт.Дарбу:\overline{I}:=inf_{P}S(P),ниж.инт.:\underline{I}:=sup_{P}s(P).\underline{I}\leq \overline{I}.Лемм.:Пусть\ P=P_{[a,b]},$
 $d=d(P)–диам.разб–яP,P*получено\ из\ P,добавл–ем\ L\ точек,M=sup_{x\in[a,b]}f(x),m=$
 $=inf_{x\in[a,b]}f(x)\Rightarrow S(P)-S(P*)\leq(M-m)Ld, s(P*)-s(P)\leq(M-m)Ld.$
-2.3.$Основная\ лемма\ Дарбу.$
-$\overline{I}=\lim_{ _d(p)_ \to 0 }\underline{S}(P),\underline{I}=\lim_{ d(P) \to 0 }s(P),S(P)=s(P)=\sigma(P)=c(b-a)=\underline{I}=\overline{I}=I.$
+2.3.$Основная\ лемма\ Дарбу.:\ \overline{I}=\lim_{ _d(p)_ \to 0 }\underline{S}(P),\underline{I}=\lim_{ d(P) \to 0 }s(P).$
 
 3.$Критерий\ интегрируемости$
 $Пусть\ f\ опр.и\ огр.на[a,b].Тогда\ след.усл–я\ эквивалентны:$
@@ -51,9 +50,10 @@ $f\in \Re[a,b]\ непр.в\ т.\ x_{0}\in[a,b]\Rightarrow F(x)=\int_{a}^xf(t)dt
 $Т.(Ф–ла\ Н–Л): f\ непр.на\ [a,b]\Rightarrow \int_{a}^bf(x)dx=\Phi(b)-\Phi(a), где\ \Phi - произвольн. первообразная\ f$
 
 8.$Интегрирование\ по\ частям\ и\ замена\ переменной\ в\ интеграле\ Римана.$
-$Т.(Ф–ла\ инт–я\ по\ частям):u(x), v(x)\ непр.дифф.на\ [a,b]\Rightarrow\int_{a}^bu(x)v'(x)dx=u(x)v(x)|_a^b-\int_{a}^bv(x)u'(x)dx$
-$Т.(Ф–ла\ замены\ перем.):f\ непр.на\ [a,b],\ g\ имеет\ непр.производную\ на\ [\alpha,\beta],\ min_{t\in[\alpha,\beta]}g(t)=g(\alpha)=a,$
-$max_{t\in[\alpha,\beta]}g(t)=g(\beta)=b\Rightarrow \int_{a}^bf(x)dx=\int_{\alpha}^\beta f(g(t))\cdot g'(t)dt$
+$Т.(Ф–ла\ инт–я\ по\ частям):u(x), v(x)\ непр.дифф.на\ [a,b]\Rightarrow\int_{a}^bu(x)v'(x)dx=$
+$=u(x)v(x)|_a^b-\int_{a}^bv(x)u'(x)dx$
+$Т.(Ф–ла\ замены\ перем.):f\ непр.на\ [a,b],\ g\ имеет\ непр.производную\ на\ [\alpha,\beta],$
+$min_{t\in[\alpha,\beta]}g(t)=g(\alpha)=a,max_{t\in[\alpha,\beta]}g(t)=g(\beta)=b\Rightarrow \int_{a}^bf(x)dx=\int_{\alpha}^\beta f(g(t))\cdot g'(t)dt$
 
 9.1.$Несобств. инт. Римана\ 2–х\ типов\ и\ их\ простейш. св–ва.\  Крит. Коши\ сход–ти\ несобств. инт.$
 $Пусть\ f\ опр.на\ [a,+\infty), \forall b\in[a,+\infty)\ f\in\Re[a,b].\ \lim_{ b \to +\infty }\int_{a}^bf(x)dx\ наз.несобств.инт.1–го\ рода,$
